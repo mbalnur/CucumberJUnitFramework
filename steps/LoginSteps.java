@@ -43,4 +43,8 @@ public class LoginSteps extends BaseUI {
         Assertions.assertTrue(dashboardPage.welcomeSign.isDisplayed());
         waitAndClick(dashboardPage.logoutButton);
     }
+
+    @Then("verify user failed signed in")
+    public void verify_user_failed_signed_in() throws Exe {
+    }
 }
